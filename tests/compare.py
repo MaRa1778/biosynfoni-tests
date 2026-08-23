@@ -6,7 +6,7 @@ from biosynfoni import Biosynfoni
 
 # use python validate.py <path-to-coconut-sdf> to set file path to the data set
 if len(sys.argv) != 2:
-    print("Usage: python validate.py <path-to-coconut-sdf>")
+    print("Usage: python compare.py <path-to-coconut-sdf>")
     sys.exit(1)
 
 data_path = sys.argv[1]
